@@ -102,7 +102,7 @@ $(document).ready(function (){
       },
       success:function (response){
         console.log(response)
-        $('/p'+response+'</p>').appendTo('body')
+        $('</p>'+response+'</p>').appendTo('body')
       },
       error:function (error){
         console.log(error)
